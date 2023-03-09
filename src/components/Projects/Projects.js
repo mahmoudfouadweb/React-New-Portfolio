@@ -11,7 +11,7 @@ function Projects() {
 
   useEffect(() => {
     getPortfolio();
-  }, []);
+  }, [portfolio]);
 
   const getPortfolio = async () => {
     const querySnapshot = await getDocs(collection(db, "portfolio"));

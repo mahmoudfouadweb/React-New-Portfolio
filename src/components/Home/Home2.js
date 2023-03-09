@@ -8,13 +8,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { github, linkedin, twitter } from "../../utility/urls";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-           {/*   have always had a passion for learning and self-improvement.Growing up, I was always interested in science and technology, and would spend hours reading about the latest advancements in these fields. This passion eventually led me to pursue a degree in Computer Science, which I am currently in my 3rd year.In addition to my studies, I am also an active member of the university's robotics club, where I have been able to apply my skills and knowledge to build and program robots. This experience has been incredibly rewarding, as it has allowed me to work with a team of like-minded individuals who share my passion for technology.Outside of school, I enjoy reading, traveling, and spending time with my friends and family. I am also a fitness enthusiast and try to maintain a healthy lifestyle by eating nutritious food and exercising regularly.In the future, I hope to use my education and skills to make a positive impact in the world, whether it be through developing new technologies, or finding ways to apply technology to improve people's lives. I believe that with hard work and determination, anything is possible, and I am excited to see where my journey will take me */}
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/mahmoudfouadweb"
+                  href={github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mah_developer"
+                  href={twitter}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/dev--mahmoud-"
+                  href={linkedin}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
