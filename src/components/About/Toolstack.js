@@ -5,7 +5,12 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiAdobephotoshop,
+  SiAdobexd,
+  SiWordpress,
+  SiWindowsterminal,
+  SiUpwork
+  
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,11 +26,24 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAdobephotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWordpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWindowsterminal />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUpwork />
+      </Col>
+
     </Row>
   );
 }
